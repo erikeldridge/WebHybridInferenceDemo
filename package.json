@@ -6,6 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
     "build": "tsc && vite build",
+    "start": "npm run build && node server.js",
     "preview": "vite preview"
   },
   "keywords": [],
@@ -18,6 +19,7 @@
     "vite": "^6.2.5"
   },
   "dependencies": {
+    "express": "^5.1.0",
     "firebase": "11.6.0-eap-vertexai-hybgoog.abf0491ae"
   }
 }
