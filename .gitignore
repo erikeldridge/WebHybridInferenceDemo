@@ -33,3 +33,9 @@ lerna-debug.log*
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Firebase
+# https://github.com/github/gitignore/blob/main/Firebase.gitignore
+# https://stackoverflow.com/a/43528761/1971682
+.firebase/
+firebase-debug.log
